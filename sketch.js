@@ -398,19 +398,6 @@ function sketchFour(p) {
     //   p.pop();
     // }
   };
-
-  p.mousePressed = function () {
-    if (p.mouseY > 0 && p.mouseY < p.height) {
-      if (p.mouseX > 0 && p.mouseX < p.width) {
-        if (p.isLooping()) {
-          p.noLoop();
-        } else {
-          p.loop();
-        }
-      }
-    }
-    isSelected(); // Check if a colour spot was clicked
-  };
 }
 
 new p5(sketchFour, "sketch4");
