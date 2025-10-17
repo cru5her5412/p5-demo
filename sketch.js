@@ -19,19 +19,19 @@ let b3 = document.getElementById("button3");
 let b4 = document.getElementById("button4");
 let b5 = document.getElementById("button5");
 b1.addEventListener("click", () => {
-  window.location.href = "https://p5-demo-4wha.onrender.com#sketch1";
+  window.location.href = "http://localhost:5500/#sketch1";
 });
 b2.addEventListener("click", () => {
-  window.location.href = "https://p5-demo-4wha.onrender.com#sketch2";
+  window.location.href = "http://localhost:5500/#sketch2";
 });
 b3.addEventListener("click", () => {
-  window.location.href = "https://p5-demo-4wha.onrender.com#sketch3";
+  window.location.href = "http://localhost:5500/#sketch3";
 });
 b4.addEventListener("click", () => {
-  window.location.href = "https://p5-demo-4wha.onrender.com#sketch4";
+  window.location.href = "http://localhost:5500/#sketch4";
 });
 b5.addEventListener("click", () => {
-  window.location.href = "https://p5-demo-4wha.onrender.com#sketch5";
+  window.location.href = "http://localhost:5500/#sketch5";
 });
 function sketchOne(p) {
   p.setup = function () {
