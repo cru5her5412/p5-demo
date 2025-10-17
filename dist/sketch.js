@@ -202,7 +202,7 @@ function sketchThree(p) {
   p.setup = function () {
     p.createCanvas(p.windowWidth, p.windowHeight); // Fullscreen
 
-    p.frameRate(20);
+    p.frameRate(60);
 
     // Using HSB for the stars' random colour
     p.colorMode(p.HSB);
