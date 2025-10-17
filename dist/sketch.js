@@ -75,16 +75,16 @@ function sketchOne(p) {
     p.fill("red");
     p.pop();
     if (x > p.mouseX) {
-      x = x - 1;
+      x = x - 5;
     }
     if (x < p.mouseX) {
-      x = x + 1;
+      x = x + 5;
     }
     if (y > p.mouseY) {
-      y = y - 1;
+      y = y - 5;
     }
     if (y < p.mouseY) {
-      y = y + 1;
+      y = y + 5;
     }
     if (!(dy >= 0)) {
       dy = dy + 5;
