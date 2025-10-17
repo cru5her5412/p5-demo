@@ -19,19 +19,19 @@ let b3 = document.getElementById("button3");
 let b4 = document.getElementById("button4");
 let b5 = document.getElementById("button5");
 b1.addEventListener("click", () => {
-  window.location.href = "http://localhost:5500/#sketch1";
+  window.location.href = "https://p5-demo-4wha.onrender.com#sketch1";
 });
 b2.addEventListener("click", () => {
-  window.location.href = "http://localhost:5500/#sketch2";
+  window.location.href = "https://p5-demo-4wha.onrender.com#sketch2";
 });
 b3.addEventListener("click", () => {
-  window.location.href = "http://localhost:5500/#sketch3";
+  window.location.href = "https://p5-demo-4wha.onrender.com#sketch3";
 });
 b4.addEventListener("click", () => {
-  window.location.href = "http://localhost:5500/#sketch4";
+  window.location.href = "https://p5-demo-4wha.onrender.com#sketch4";
 });
 b5.addEventListener("click", () => {
-  window.location.href = "http://localhost:5500/#sketch5";
+  window.location.href = "https://p5-demo-4wha.onrender.com#sketch5";
 });
 function sketchOne(p) {
   p.setup = function () {
@@ -202,7 +202,7 @@ function sketchThree(p) {
   p.setup = function () {
     p.createCanvas(p.windowWidth, p.windowHeight); // Fullscreen
 
-    p.frameRate(20);
+    p.frameRate(60);
 
     // Using HSB for the stars' random colour
     p.colorMode(p.HSB);
@@ -397,6 +397,10 @@ function sketchFour(p) {
     //   p.text("not running", p.width - 70, 10);
     //   p.pop();
     // }
+  };
+
+  p.mousePressed = function () {
+    isSelected(); // Check if a colour spot was clicked
   };
 }
 
