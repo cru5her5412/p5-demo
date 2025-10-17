@@ -86,11 +86,6 @@ function sketchOne(p) {
     if (y < p.mouseY) {
       y = y + 5;
     }
-    if (!(dy >= 0)) {
-      dy = dy + 5;
-    }
-    x = x + dx;
-    y = y + dy;
     x = p.constrain(x, 25, p.width - 25);
     y = p.constrain(y, 25, p.height - 25);
   };
